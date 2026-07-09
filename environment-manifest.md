@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-09 14:12:05 +0500
+Дата последнего обновления: 2026-07-09 21:20:55 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -116,7 +116,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|
 | superpowers@skills-dir | 152 | 2026-07-09 |
 | taste-skill@skills-dir | 13 | 2026-07-02 |
-| aaron-marketing@aaron | 6 | 2026-07-09 |
+| aaron-marketing@aaron | 8 | 2026-07-09 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
 | figma@inline | 0 | 2026-06-20 |
@@ -224,7 +224,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 37a0ac8 kailash-2026: design evolution — temple journey visual pass | 34 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 3825c14 sync script: fix untracked-file detection in push_manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 376f2ba auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

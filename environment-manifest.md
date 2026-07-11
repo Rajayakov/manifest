@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-11 21:58:30 +0500
+Дата последнего обновления: 2026-07-11 21:59:41 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -81,11 +81,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
-        "version": "unknown",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/6fbe3b01859c",
+        "version": "6fbe3b01859c",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-11T13:19:41.355Z",
-        "gitCommitSha": "df756136ae852a9784837fd8d1db9f87f17a2544"
+        "lastUpdated": "2026-07-11T16:58:42.012Z",
+        "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
       }
     ],
     "aaron-marketing@aaron": [
@@ -114,8 +114,8 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 202 | 2026-07-11 |
-| superpowers@skills-dir | 170 | 2026-07-11 |
+| aaron-marketing@aaron | 203 | 2026-07-11 |
+| superpowers@skills-dir | 171 | 2026-07-11 |
 | taste-skill@skills-dir | 13 | 2026-07-02 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -225,7 +225,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 0c68577 Unify Schedule cards with Hero card style, drop dead pts-card* CSS | 31 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | f7e2577 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | ad5dc76 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

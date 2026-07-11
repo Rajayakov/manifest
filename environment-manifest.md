@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-10 20:26:55 +0500
+Дата последнего обновления: 2026-07-11 14:10:15 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -84,7 +84,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-10T10:12:56.079Z",
+        "lastUpdated": "2026-07-10T16:58:58.539Z",
         "gitCommitSha": "df756136ae852a9784837fd8d1db9f87f17a2544"
       }
     ],
@@ -114,8 +114,8 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| superpowers@skills-dir | 158 | 2026-07-10 |
-| aaron-marketing@aaron | 52 | 2026-07-10 |
+| superpowers@skills-dir | 164 | 2026-07-11 |
+| aaron-marketing@aaron | 121 | 2026-07-11 |
 | taste-skill@skills-dir | 13 | 2026-07-02 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -133,12 +133,12 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | ui-ux-pro-max:ui-ux-pro-max | 4 | 2026-07-03 |
 | run | 3 | 2026-07-01 |
 | update-config | 3 | 2026-07-09 |
+| caveman | 3 | 2026-07-10 |
 | taste-skill:taste-skill | 3 | 2026-06-29 |
 | taste-skill:taste-skill-v1 | 3 | 2026-07-01 |
 | taste-skill:soft-skill | 3 | 2026-07-02 |
 | design-review | 3 | 2026-07-03 |
 | verify | 2 | 2026-06-24 |
-| caveman | 2 | 2026-06-24 |
 | caveman-compress | 2 | 2026-06-24 |
 | design-taste-frontend | 2 | 2026-06-24 |
 | taste-skill:redesign-skill | 2 | 2026-07-02 |
@@ -158,6 +158,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | init | 1 | 2026-06-27 |
 | taste-skill:imagegen-frontend-web | 1 | 2026-06-29 |
 | superpowers:systematic-debugging | 1 | 2026-07-04 |
+| ponytail | 1 | 2026-07-10 |
 
 ## MCP-серверы
 
@@ -222,9 +223,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Путь | Remote | Branch | HEAD | Статус |
 |---|---|---|---|---|
-| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 37a0ac8 kailash-2026: design evolution — temple journey visual pass | 52 uncommitted |
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a6cfe97 Rework Kailash card in mountains Hero | 34 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 41a6cd1 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 013a813 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

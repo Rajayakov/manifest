@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-11 23:39:43 +0500
+Дата последнего обновления: 2026-07-11 23:42:41 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -84,7 +84,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-11T17:06:40.418Z",
+        "lastUpdated": "2026-07-11T18:40:11.326Z",
         "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
       }
     ],
@@ -114,8 +114,8 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 213 | 2026-07-11 |
-| superpowers@skills-dir | 173 | 2026-07-11 |
+| aaron-marketing@aaron | 216 | 2026-07-11 |
+| superpowers@skills-dir | 174 | 2026-07-11 |
 | taste-skill@skills-dir | 13 | 2026-07-02 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -225,7 +225,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 6a86c91 Add Arunachala photo, wire heroImage into Schedule cards + data | 31 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | d3211d8 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | fc88eff auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

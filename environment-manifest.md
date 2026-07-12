@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-12 15:17:21 +0500
+Дата последнего обновления: 2026-07-12 16:51:42 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -86,7 +86,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-12T10:15:40.342Z",
+        "lastUpdated": "2026-07-12T10:20:34.725Z",
         "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
       }
     ],
@@ -127,9 +127,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 344 | 2026-07-12 |
-| superpowers@skills-dir | 181 | 2026-07-12 |
-| gearbox@gearbox | 19 | 2026-07-12 |
+| aaron-marketing@aaron | 348 | 2026-07-12 |
+| superpowers@skills-dir | 182 | 2026-07-12 |
+| gearbox@gearbox | 22 | 2026-07-12 |
 | taste-skill@skills-dir | 14 | 2026-07-12 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -242,7 +242,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 94c87fd Art direction pass: equal-height journey cards, editorial hierarchy, mineral atmosphere backgrounds, quieter hover/borders, feature Annapurna | 33 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | f3fc327 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 5062ed2 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-11 23:57:09 +0500
+Дата последнего обновления: 2026-07-12 11:25:52 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -125,10 +125,10 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 224 | 2026-07-11 |
+| aaron-marketing@aaron | 225 | 2026-07-11 |
 | superpowers@skills-dir | 175 | 2026-07-11 |
 | taste-skill@skills-dir | 13 | 2026-07-02 |
-| gearbox@gearbox | 6 | 2026-07-11 |
+| gearbox@gearbox | 7 | 2026-07-11 |
 | ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
 | figma@inline | 0 | 2026-06-20 |
@@ -238,7 +238,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 6a86c91 Add Arunachala photo, wire heroImage into Schedule cards + data | 32 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 00f5d78 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | ccc65fe auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

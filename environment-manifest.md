@@ -65,3 +65,200 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | superpowers | dir | git@github.com:obra/superpowers.git |
 | tailored-resume-generator | dir | local dir |
 | tailwind-design-system | symlink | ../../.agents/skills/tailwind-design-system |
+| taste-skill | dir | git@github.com:Leonxlnx/taste-skill.git |
+| template-skill | dir | local dir |
+| theme-factory | dir | local dir |
+| twitter-algorithm-optimizer | dir | local dir |
+| ui-ux-pro-max-skill | dir | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill |
+| video-downloader | dir | local dir |
+| web-design-guidelines | symlink | ../../.agents/skills/web-design-guidelines |
+| webapp-testing | dir | local dir |
+
+## Плагины — ~/.claude/plugins/installed_plugins.json
+
+```json
+{
+  "version": 2,
+  "plugins": {
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
+        "version": "unknown",
+        "installedAt": "2026-05-13T08:13:53.134Z",
+        "lastUpdated": "2026-07-14T05:33:36.940Z",
+        "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
+      }
+    ],
+    "aaron-marketing@aaron": [
+      {
+        "scope": "user",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/aaron/aaron-marketing/16.1.1",
+        "version": "16.1.1",
+        "installedAt": "2026-07-09T07:53:02.653Z",
+        "lastUpdated": "2026-07-09T07:53:02.653Z",
+        "gitCommitSha": "a41e297cdae73c280391b69154e8d1ce9dbaee7f"
+      }
+    ],
+    "gearbox@gearbox": [
+      {
+        "scope": "user",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/gearbox/gearbox/0.2.0",
+        "version": "0.2.0",
+        "installedAt": "2026-07-11T18:50:05.164Z",
+        "lastUpdated": "2026-07-11T18:50:05.164Z",
+        "gitCommitSha": "f80c0d3f4fcc1015d3ca190b9cc425fb41cc65db"
+      }
+    ]
+  }
+}```
+
+### enabledPlugins — ~/.claude/settings.json
+
+| Плагин | Статус |
+|---|---|
+| aaron-marketing@aaron | включен |
+| gearbox@gearbox | включен |
+| github@claude-plugins-official | отключен (disabled) |
+
+## Использование скиллов/плагинов (~/.claude.json: skillUsage / pluginUsage)
+
+### pluginUsage
+
+| Плагин | usageCount | lastUsedAt |
+|---|---|---|
+| aaron-marketing@aaron | 523 | 2026-07-14 |
+| superpowers@skills-dir | 192 | 2026-07-14 |
+| gearbox@gearbox | 69 | 2026-07-14 |
+| taste-skill@skills-dir | 17 | 2026-07-14 |
+| ui-ux-pro-max@skills-dir | 5 | 2026-07-14 |
+| github@claude-plugins-official | 0 | 2026-06-11 |
+| figma@inline | 0 | 2026-06-20 |
+| marketing-skills@skills-dir | 0 | 2026-06-20 |
+
+### skillUsage (top-level и namespaced)
+
+| Скилл | usageCount | lastUsedAt |
+|---|---|---|
+| impeccable | 9 | 2026-07-14 |
+| find-skills | 6 | 2026-07-01 |
+| frontend-design | 6 | 2026-07-14 |
+| webapp-testing | 5 | 2026-07-04 |
+| screenshot-desktop | 5 | 2026-07-13 |
+| caveman | 4 | 2026-07-11 |
+| design-taste-frontend | 4 | 2026-07-14 |
+| taste-skill:soft-skill | 4 | 2026-07-14 |
+| ui-ux-pro-max:ui-ux-pro-max | 4 | 2026-07-03 |
+| design-review | 4 | 2026-07-14 |
+| ponytail | 4 | 2026-07-11 |
+| run | 3 | 2026-07-01 |
+| update-config | 3 | 2026-07-09 |
+| caveman-compress | 3 | 2026-07-11 |
+| taste-skill:taste-skill | 3 | 2026-06-29 |
+| taste-skill:taste-skill-v1 | 3 | 2026-07-01 |
+| taste-skill:redesign-skill | 3 | 2026-07-14 |
+| verify | 2 | 2026-06-24 |
+| ui-ux-pro-max | 2 | 2026-07-14 |
+| grill-me | 2 | 2026-07-07 |
+| artifact-design | 2 | 2026-07-04 |
+| composio-cli | 1 | 2026-06-20 |
+| connect | 1 | 2026-06-21 |
+| caveman-help | 1 | 2026-06-23 |
+| framer | 1 | 2026-06-23 |
+| superpowers:using-superpowers | 1 | 2026-06-24 |
+| caveman-commit | 1 | 2026-06-24 |
+| imagegen-frontend-web | 1 | 2026-06-24 |
+| karpathy-guidelines | 1 | 2026-06-24 |
+| superpowers:subagent-driven-development | 1 | 2026-06-27 |
+| skill-share | 1 | 2026-06-27 |
+| init | 1 | 2026-06-27 |
+| taste-skill:imagegen-frontend-web | 1 | 2026-06-29 |
+| superpowers:systematic-debugging | 1 | 2026-07-04 |
+| gearbox:doctor | 1 | 2026-07-11 |
+| graphify | 1 | 2026-07-12 |
+
+## MCP-серверы
+
+### ~/.claude.json → mcpServers
+```json
+{
+  "composio": {
+    "type": "http",
+    "url": "https://connect.composio.dev/mcp"
+  },
+  "magic": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@21st-dev/magic@latest"
+    ],
+    "env": {
+      "API_KEY": "***REDACTED***"
+    }
+  },
+  "playwright": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@playwright/mcp@latest"
+    ],
+    "env": {}
+  },
+  "glif": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@glifxyz/glif-mcp-server@latest"
+    ],
+    "env": {
+      "GLIF_API_TOKEN": "***REDACTED***"
+    }
+  }
+}
+```
+
+### Claude Desktop → claude_desktop_config.json → mcpServers
+```json
+{
+  "logic-pro": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
+    "args": [
+      "/Users/Rajuna/logic-pro-mcp/dist/index.js"
+    ],
+    "env": {
+      "HOME": "/Users/Rajuna",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+  }
+}
+```
+
+## Состояние проектных репозиториев
+
+| Путь | Remote | Branch | HEAD | Статус |
+|---|---|---|---|---|
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 5b666ac Alpine Mist: replace mountains.astro atmosphere with a cold, continuous descent | 36 uncommitted |
+| /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | ea15ad5 auto: sync environment manifest | 1 uncommitted |
+
+## Локальные скиллы внутри проектов
+
+### /Users/Rajuna/projects/The-Open-Sky/.claude/skills
+- auto-preview-workflow.md
+- caveman-commit
+- design-taste-frontend
+- find-skills
+- frontend-design
+- imagegen-frontend-web
+- impeccable
+- karpathy-guidelines
+- sacred-lixury-direction.md
+- ui-ux-pro-max
+- using-superpowers
+
+## Решения
+
+- frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.

@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-14 10:23:36 +0500
+Дата последнего обновления: 2026-07-14 15:39:59 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -86,7 +86,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-14T05:18:56.922Z",
+        "lastUpdated": "2026-07-14T05:33:36.940Z",
         "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
       }
     ],
@@ -127,11 +127,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 477 | 2026-07-14 |
-| superpowers@skills-dir | 189 | 2026-07-14 |
-| gearbox@gearbox | 66 | 2026-07-14 |
-| taste-skill@skills-dir | 14 | 2026-07-12 |
-| ui-ux-pro-max@skills-dir | 4 | 2026-07-03 |
+| aaron-marketing@aaron | 521 | 2026-07-14 |
+| superpowers@skills-dir | 190 | 2026-07-14 |
+| gearbox@gearbox | 67 | 2026-07-14 |
+| taste-skill@skills-dir | 17 | 2026-07-14 |
+| ui-ux-pro-max@skills-dir | 5 | 2026-07-14 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
 | figma@inline | 0 | 2026-06-20 |
 | marketing-skills@skills-dir | 0 | 2026-06-20 |
@@ -140,31 +140,31 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Скилл | usageCount | lastUsedAt |
 |---|---|---|
-| impeccable | 8 | 2026-06-24 |
+| impeccable | 9 | 2026-07-14 |
 | find-skills | 6 | 2026-07-01 |
-| frontend-design | 5 | 2026-07-01 |
+| frontend-design | 6 | 2026-07-14 |
 | webapp-testing | 5 | 2026-07-04 |
 | screenshot-desktop | 5 | 2026-07-13 |
 | caveman | 4 | 2026-07-11 |
+| design-taste-frontend | 4 | 2026-07-14 |
+| taste-skill:soft-skill | 4 | 2026-07-14 |
 | ui-ux-pro-max:ui-ux-pro-max | 4 | 2026-07-03 |
+| design-review | 4 | 2026-07-14 |
 | ponytail | 4 | 2026-07-11 |
 | run | 3 | 2026-07-01 |
 | update-config | 3 | 2026-07-09 |
 | caveman-compress | 3 | 2026-07-11 |
 | taste-skill:taste-skill | 3 | 2026-06-29 |
-| design-taste-frontend | 3 | 2026-07-12 |
 | taste-skill:taste-skill-v1 | 3 | 2026-07-01 |
-| taste-skill:soft-skill | 3 | 2026-07-02 |
-| design-review | 3 | 2026-07-03 |
+| taste-skill:redesign-skill | 3 | 2026-07-14 |
 | verify | 2 | 2026-06-24 |
-| taste-skill:redesign-skill | 2 | 2026-07-02 |
+| ui-ux-pro-max | 2 | 2026-07-14 |
 | grill-me | 2 | 2026-07-07 |
 | artifact-design | 2 | 2026-07-04 |
 | composio-cli | 1 | 2026-06-20 |
 | connect | 1 | 2026-06-21 |
 | caveman-help | 1 | 2026-06-23 |
 | framer | 1 | 2026-06-23 |
-| ui-ux-pro-max | 1 | 2026-06-23 |
 | superpowers:using-superpowers | 1 | 2026-06-24 |
 | caveman-commit | 1 | 2026-06-24 |
 | imagegen-frontend-web | 1 | 2026-06-24 |
@@ -242,7 +242,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | 5b666ac Alpine Mist: replace mountains.astro atmosphere with a cold, continuous descent | 36 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 1bea526 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 6689953 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

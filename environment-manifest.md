@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-15 11:22:05 +0500
+Дата последнего обновления: 2026-07-16 17:24:52 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -86,7 +86,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-15T05:53:40.090Z",
+        "lastUpdated": "2026-07-15T06:34:15.518Z",
         "gitCommitSha": "6fbe3b01859cc0c4e84ba66028cffd91f2b02d93"
       }
     ],
@@ -138,15 +138,16 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 630 | 2026-07-15 |
-| superpowers@skills-dir | 197 | 2026-07-15 |
-| gearbox@gearbox | 82 | 2026-07-15 |
+| aaron-marketing@aaron | 652 | 2026-07-15 |
+| superpowers@skills-dir | 199 | 2026-07-15 |
+| gearbox@gearbox | 86 | 2026-07-15 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
 | figma@inline | 0 | 2026-06-20 |
 | marketing-skills@skills-dir | 0 | 2026-06-20 |
 | web-quality-skills@addy-web-quality-skills | 0 | 2026-07-14 |
+| sales@inline | 0 | 2026-07-16 |
 
 ### skillUsage (top-level и namespaced)
 
@@ -252,9 +253,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Путь | Remote | Branch | HEAD | Статус |
 |---|---|---|---|---|
-| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 40 uncommitted |
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 41 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | b5a8cdf auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 3647c7d auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

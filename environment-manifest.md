@@ -253,3 +253,25 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Путь | Remote | Branch | HEAD | Статус |
 |---|---|---|---|---|
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 41 uncommitted |
+| /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | e2643a4 auto: sync environment manifest | 1 uncommitted |
+
+## Локальные скиллы внутри проектов
+
+### /Users/Rajuna/projects/The-Open-Sky/.claude/skills
+- auto-preview-workflow.md
+- caveman-commit
+- design-taste-frontend
+- find-skills
+- frontend-design
+- imagegen-frontend-web
+- impeccable
+- karpathy-guidelines
+- sacred-lixury-direction.md
+- ui-ux-pro-max
+- using-superpowers
+
+## Решения
+
+- frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.

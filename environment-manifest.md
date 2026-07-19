@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-19 20:38:12 +0500
+Дата последнего обновления: 2026-07-19 20:38:19 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -138,9 +138,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 674 | 2026-07-19 |
-| superpowers@skills-dir | 210 | 2026-07-19 |
-| gearbox@gearbox | 100 | 2026-07-19 |
+| aaron-marketing@aaron | 675 | 2026-07-19 |
+| superpowers@skills-dir | 211 | 2026-07-19 |
+| gearbox@gearbox | 101 | 2026-07-19 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -253,25 +253,3 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Путь | Remote | Branch | HEAD | Статус |
 |---|---|---|---|---|
-| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 41 uncommitted |
-| /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 5dc91bc auto: sync environment manifest | 1 uncommitted |
-
-## Локальные скиллы внутри проектов
-
-### /Users/Rajuna/projects/The-Open-Sky/.claude/skills
-- auto-preview-workflow.md
-- caveman-commit
-- design-taste-frontend
-- find-skills
-- frontend-design
-- imagegen-frontend-web
-- impeccable
-- karpathy-guidelines
-- sacred-lixury-direction.md
-- ui-ux-pro-max
-- using-superpowers
-
-## Решения
-
-- frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.

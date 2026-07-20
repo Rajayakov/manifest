@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-20 11:06:08 +0500
+Дата последнего обновления: 2026-07-20 11:08:10 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -153,9 +153,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 703 | 2026-07-20 |
-| superpowers@skills-dir | 218 | 2026-07-20 |
-| gearbox@gearbox | 114 | 2026-07-20 |
+| aaron-marketing@aaron | 705 | 2026-07-20 |
+| superpowers@skills-dir | 219 | 2026-07-20 |
+| gearbox@gearbox | 115 | 2026-07-20 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -270,7 +270,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 41 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 4731d7d auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 5ba9876 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

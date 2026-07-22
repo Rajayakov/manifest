@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-22 18:05:36 +0500
+Дата последнего обновления: 2026-07-22 18:11:54 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -101,7 +101,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-20T06:25:06.663Z",
+        "lastUpdated": "2026-07-22T13:10:11.174Z",
         "gitCommitSha": "b0b9f02b0581696da41e20d6c536ec639b44080f"
       }
     ],
@@ -134,6 +134,15 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "lastUpdated": "2026-07-14T11:18:44.231Z",
         "gitCommitSha": "95d6e255afe1596b557d7a8498517884438f5b3a"
       }
+    ],
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/claude-code-setup/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-07-22T13:10:55.264Z",
+        "lastUpdated": "2026-07-22T13:10:55.264Z"
+      }
     ]
   }
 }```
@@ -143,6 +152,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | Плагин | Статус |
 |---|---|
 | aaron-marketing@aaron | включен |
+| claude-code-setup@claude-plugins-official | включен |
 | gearbox@gearbox | включен |
 | github@claude-plugins-official | отключен (disabled) |
 | web-quality-skills@addy-web-quality-skills | включен |
@@ -153,9 +163,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 752 | 2026-07-20 |
-| superpowers@skills-dir | 221 | 2026-07-20 |
-| gearbox@gearbox | 117 | 2026-07-20 |
+| aaron-marketing@aaron | 768 | 2026-07-22 |
+| superpowers@skills-dir | 225 | 2026-07-22 |
+| gearbox@gearbox | 124 | 2026-07-22 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | github@claude-plugins-official | 0 | 2026-06-11 |
@@ -163,6 +173,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | marketing-skills@skills-dir | 0 | 2026-06-20 |
 | web-quality-skills@addy-web-quality-skills | 0 | 2026-07-14 |
 | sales@inline | 0 | 2026-07-16 |
+| claude-code-setup@claude-plugins-official | 0 | 2026-07-22 |
 
 ### skillUsage (top-level и namespaced)
 
@@ -271,7 +282,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 41 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | d78e09a auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | e7a12d7 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

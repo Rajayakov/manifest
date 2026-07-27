@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-07-27 21:03:19 +0500
+Дата последнего обновления: 2026-07-27 22:15:59 +0500
 
 ## Скиллы — ~/.claude/skills
 
@@ -98,11 +98,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
-        "version": "unknown",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/e5635ad1f038",
+        "version": "e5635ad1f038",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-27T15:49:23.550Z",
-        "gitCommitSha": "b0b9f02b0581696da41e20d6c536ec639b44080f"
+        "lastUpdated": "2026-07-27T16:11:39.420Z",
+        "gitCommitSha": "e5635ad1f03874dbe6862f8b56f8873b8d4035dc"
       }
     ],
     "aaron-marketing@aaron": [
@@ -163,9 +163,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 862 | 2026-07-27 |
-| superpowers@skills-dir | 240 | 2026-07-27 |
-| gearbox@gearbox | 145 | 2026-07-27 |
+| aaron-marketing@aaron | 913 | 2026-07-27 |
+| superpowers@skills-dir | 241 | 2026-07-27 |
+| gearbox@gearbox | 146 | 2026-07-27 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -196,11 +196,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | caveman-compress | 3 | 2026-07-11 |
 | taste-skill:taste-skill | 3 | 2026-06-29 |
 | taste-skill:taste-skill-v1 | 3 | 2026-07-01 |
+| artifact-design | 3 | 2026-07-27 |
 | projects/The-Open-Sky:impeccable | 3 | 2026-07-20 |
 | verify | 2 | 2026-06-24 |
 | ui-ux-pro-max | 2 | 2026-07-14 |
 | grill-me | 2 | 2026-07-07 |
-| artifact-design | 2 | 2026-07-04 |
 | composio-cli | 1 | 2026-06-20 |
 | connect | 1 | 2026-06-21 |
 | caveman-help | 1 | 2026-06-23 |
@@ -283,7 +283,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 45 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | eb5c29a auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 87c958a auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

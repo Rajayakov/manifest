@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-09-28 09:25:10 +0700
+Дата последнего обновления: 2026-09-28 09:37:52 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -75,6 +75,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | spec-build-review | dir | local dir |
 | steve-jobs-design-review | dir | local dir |
 | superpowers | dir | git@github.com:obra/superpowers.git |
+| synced | dir | local dir |
 | tailored-resume-generator | dir | local dir |
 | tailwind-design-system | symlink | ../../.agents/skills/tailwind-design-system |
 | taste-skill | dir | git@github.com:Leonxlnx/taste-skill.git |
@@ -101,7 +102,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
         "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/unknown",
         "version": "unknown",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-07-28T05:41:19.895Z",
+        "lastUpdated": "2026-09-28T02:27:51.233Z",
         "gitCommitSha": "e5635ad1f03874dbe6862f8b56f8873b8d4035dc"
       }
     ],
@@ -163,9 +164,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 962 | 2026-09-28 |
-| superpowers@skills-dir | 247 | 2026-09-28 |
-| gearbox@gearbox | 152 | 2026-09-28 |
+| aaron-marketing@aaron | 968 | 2026-09-28 |
+| superpowers@skills-dir | 250 | 2026-09-28 |
+| gearbox@gearbox | 155 | 2026-09-28 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -218,6 +219,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | graphify | 1 | 2026-07-12 |
 | claude-code-setup:claude-automation-recommender | 1 | 2026-07-22 |
 | superpowers:brainstorming | 1 | 2026-07-28 |
+| file-organizer | 1 | 2026-09-28 |
 
 ## MCP-серверы
 
@@ -284,7 +286,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 45 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 7c8a620 auto: sync environment manifest | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | d28261d auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 
@@ -304,4 +306,3 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 ## Решения
 
 - frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.
-тов.

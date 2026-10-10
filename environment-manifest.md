@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-10-10 10:39:15 +0700
+Дата последнего обновления: 2026-10-10 10:48:22 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -99,11 +99,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/b860d6f2554f",
-        "version": "b860d6f2554f",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/b8e53f1c05df",
+        "version": "b8e53f1c05df",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-10-09T13:11:34.526Z",
-        "gitCommitSha": "b860d6f2554f145fe1e7ac4cdcabca0120d14030"
+        "lastUpdated": "2026-10-10T03:43:16.862Z",
+        "gitCommitSha": "b8e53f1c05dff3b6d751297f6527990ffc81c2f4"
       }
     ],
     "aaron-marketing@aaron": [
@@ -164,9 +164,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1057 | 2026-10-09 |
-| superpowers@skills-dir | 255 | 2026-10-09 |
-| gearbox@gearbox | 162 | 2026-10-09 |
+| aaron-marketing@aaron | 1063 | 2026-10-10 |
+| superpowers@skills-dir | 256 | 2026-10-10 |
+| gearbox@gearbox | 164 | 2026-10-10 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -308,7 +308,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 45 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | b72f808 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | efdba98 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

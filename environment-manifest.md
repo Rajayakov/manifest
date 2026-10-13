@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-10-13 09:50:55 +0700
+Дата последнего обновления: 2026-10-13 10:50:32 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -164,9 +164,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1187 | 2026-10-13 |
-| superpowers@skills-dir | 265 | 2026-10-13 |
-| gearbox@gearbox | 180 | 2026-10-13 |
+| aaron-marketing@aaron | 1216 | 2026-10-13 |
+| superpowers@skills-dir | 266 | 2026-10-13 |
+| gearbox@gearbox | 181 | 2026-10-13 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -271,6 +271,15 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "env": {
       "GLIF_API_TOKEN": "***REDACTED***"
     }
+  },
+  "chrome-devtools": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "chrome-devtools-mcp@latest"
+    ],
+    "env": {}
   }
 }
 ```
@@ -306,9 +315,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Путь | Remote | Branch | HEAD | Статус |
 |---|---|---|---|---|
-| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 60 uncommitted |
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | main | a9527a8 Alpine Mist: finalize art-direction pass on mountains page | 61 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 2161261 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | dc4cebb auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

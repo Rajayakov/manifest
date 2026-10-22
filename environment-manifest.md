@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-10-22 09:52:51 +0700
+Дата последнего обновления: 2026-10-22 09:58:07 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -99,11 +99,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/d1adba47161a",
-        "version": "d1adba47161a",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/af59ee3a1051",
+        "version": "af59ee3a1051",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-10-21T07:22:07.458Z",
-        "gitCommitSha": "d1adba47161a271799de7b548225d929310046bd"
+        "lastUpdated": "2026-10-22T02:54:51.481Z",
+        "gitCommitSha": "af59ee3a1051a29dda4a2e7a2af221aa457ae08b"
       }
     ],
     "aaron-marketing@aaron": [
@@ -164,9 +164,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1316 | 2026-10-21 |
+| aaron-marketing@aaron | 1318 | 2026-10-22 |
 | superpowers@skills-dir | 279 | 2026-10-20 |
-| gearbox@gearbox | 203 | 2026-10-21 |
+| gearbox@gearbox | 204 | 2026-10-22 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -235,105 +235,3 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 ## MCP-серверы
 
 ### ~/.claude.json → mcpServers
-```json
-{
-  "composio": {
-    "type": "http",
-    "url": "https://connect.composio.dev/mcp"
-  },
-  "magic": {
-    "type": "stdio",
-    "command": "npx",
-    "args": [
-      "-y",
-      "@21st-dev/magic@latest"
-    ],
-    "env": {
-      "API_KEY": "***REDACTED***"
-    }
-  },
-  "playwright": {
-    "type": "stdio",
-    "command": "npx",
-    "args": [
-      "-y",
-      "@playwright/mcp@latest"
-    ],
-    "env": {}
-  },
-  "glif": {
-    "type": "stdio",
-    "command": "npx",
-    "args": [
-      "-y",
-      "@glifxyz/glif-mcp-server@latest"
-    ],
-    "env": {
-      "GLIF_API_TOKEN": "***REDACTED***"
-    }
-  },
-  "chrome-devtools": {
-    "type": "stdio",
-    "command": "npx",
-    "args": [
-      "-y",
-      "chrome-devtools-mcp@latest"
-    ],
-    "env": {}
-  }
-}
-```
-
-### Claude Desktop → claude_desktop_config.json → mcpServers
-```json
-{
-  "logic-pro": {
-    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
-    "args": [
-      "/Users/Rajuna/logic-pro-mcp/dist/index.js"
-    ],
-    "env": {
-      "HOME": "/Users/Rajuna",
-      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
-    }
-  },
-  "logic-pro-mackie": {
-    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
-    "args": [
-      "/Users/Rajuna/rubenknol-mcp/dist/index.js"
-    ],
-    "env": {
-      "HOME": "/Users/Rajuna",
-      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
-      "LOGIC_MCP_PYTHON": "/Users/Rajuna/rubenknol-mcp/.venv/bin/python"
-    }
-  }
-}
-```
-
-## Состояние проектных репозиториев
-
-| Путь | Remote | Branch | HEAD | Статус |
-|---|---|---|---|---|
-| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 37 uncommitted |
-| /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 96a5830 auto: sync environment manifest | 1 uncommitted |
-
-## Локальные скиллы внутри проектов
-
-### /Users/Rajuna/projects/The-Open-Sky/.claude/skills
-- auto-preview-workflow.md
-- caveman-commit
-- design-taste-frontend
-- find-skills
-- frontend-design
-- imagegen-frontend-web
-- impeccable
-- karpathy-guidelines
-- sacred-lixury-direction.md
-- ui-ux-pro-max
-- using-superpowers
-
-## Решения
-
-- frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.

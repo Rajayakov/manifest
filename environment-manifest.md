@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-10-22 09:58:07 +0700
+Дата последнего обновления: 2026-10-24 09:57:29 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -164,9 +164,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1318 | 2026-10-22 |
-| superpowers@skills-dir | 279 | 2026-10-20 |
-| gearbox@gearbox | 204 | 2026-10-22 |
+| aaron-marketing@aaron | 1339 | 2026-10-22 |
+| superpowers@skills-dir | 280 | 2026-10-22 |
+| gearbox@gearbox | 206 | 2026-10-22 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -235,3 +235,105 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 ## MCP-серверы
 
 ### ~/.claude.json → mcpServers
+```json
+{
+  "composio": {
+    "type": "http",
+    "url": "https://connect.composio.dev/mcp"
+  },
+  "magic": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@21st-dev/magic@latest"
+    ],
+    "env": {
+      "API_KEY": "***REDACTED***"
+    }
+  },
+  "playwright": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@playwright/mcp@latest"
+    ],
+    "env": {}
+  },
+  "glif": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@glifxyz/glif-mcp-server@latest"
+    ],
+    "env": {
+      "GLIF_API_TOKEN": "***REDACTED***"
+    }
+  },
+  "chrome-devtools": {
+    "type": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "chrome-devtools-mcp@latest"
+    ],
+    "env": {}
+  }
+}
+```
+
+### Claude Desktop → claude_desktop_config.json → mcpServers
+```json
+{
+  "logic-pro": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
+    "args": [
+      "/Users/Rajuna/logic-pro-mcp/dist/index.js"
+    ],
+    "env": {
+      "HOME": "/Users/Rajuna",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+  },
+  "logic-pro-mackie": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
+    "args": [
+      "/Users/Rajuna/rubenknol-mcp/dist/index.js"
+    ],
+    "env": {
+      "HOME": "/Users/Rajuna",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+      "LOGIC_MCP_PYTHON": "/Users/Rajuna/rubenknol-mcp/.venv/bin/python"
+    }
+  }
+}
+```
+
+## Состояние проектных репозиториев
+
+| Путь | Remote | Branch | HEAD | Статус |
+|---|---|---|---|---|
+| /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 38 uncommitted |
+| /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 9ce8d7c auto: sync environment manifest | 1 uncommitted |
+
+## Локальные скиллы внутри проектов
+
+### /Users/Rajuna/projects/The-Open-Sky/.claude/skills
+- auto-preview-workflow.md
+- caveman-commit
+- design-taste-frontend
+- find-skills
+- frontend-design
+- imagegen-frontend-web
+- impeccable
+- karpathy-guidelines
+- sacred-lixury-direction.md
+- ui-ux-pro-max
+- using-superpowers
+
+## Решения
+
+- frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.

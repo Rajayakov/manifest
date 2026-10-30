@@ -2,19 +2,19 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-10-30 11:08:26 +0700
+Дата последнего обновления: 2026-10-30 11:09:06 +0700
 
 ## Скиллы — ~/.claude/skills
 
 | Имя | Тип | Источник |
 |---|---|---|
-| ad-campaign-rajuna | dir | local dir |
-| artifacts-builder | dir | local dir |
+| ad-campaign-rajuna | symlink | ../../.agents/skills/ad-campaign-rajuna |
+| artifacts-builder | symlink | ../../.agents/skills/artifacts-builder |
 | astro | symlink | ../../.agents/skills/astro |
-| audio-engineering-patterns | dir | local dir |
-| brand-guidelines | dir | local dir |
-| brief-to-tasks | dir | local dir |
-| canvas-design | dir | local dir |
+| audio-engineering-patterns | symlink | ../../.agents/skills/audio-engineering-patterns |
+| brand-guidelines | symlink | ../../.agents/skills/brand-guidelines |
+| brief-to-tasks | symlink | ../../.agents/skills/brief-to-tasks |
+| canvas-design | symlink | ../../.agents/skills/canvas-design |
 | cavecrew | symlink | ../../.agents/skills/cavecrew |
 | caveman | symlink | ../../.agents/skills/caveman |
 | caveman-commit | symlink | ../../.agents/skills/caveman-commit |
@@ -22,74 +22,74 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | caveman-help | symlink | ../../.agents/skills/caveman-help |
 | caveman-review | symlink | ../../.agents/skills/caveman-review |
 | caveman-stats | symlink | ../../.agents/skills/caveman-stats |
-| changelog-generator | dir | local dir |
-| competitive-ads-extractor | dir | local dir |
+| changelog-generator | symlink | ../../.agents/skills/changelog-generator |
+| competitive-ads-extractor | symlink | ../../.agents/skills/competitive-ads-extractor |
 | composio-cli | symlink | ../../.agents/skills/composio-cli |
-| connect | dir | local dir |
-| connect-apps | dir | local dir |
-| content-research-writer | dir | local dir |
-| context-engineering | dir | local dir |
-| create-website | dir | local dir |
-| design-brief | dir | local dir |
-| design-code-architecture | dir | local dir |
-| design-everyday-things | dir | local dir |
-| design-flow | dir | local dir |
-| design-review | dir | local dir |
+| connect | symlink | ../../.agents/skills/connect |
+| connect-apps | symlink | ../../.agents/skills/connect-apps |
+| content-research-writer | symlink | ../../.agents/skills/content-research-writer |
+| context-engineering | symlink | ../../.agents/skills/context-engineering |
+| create-website | symlink | ../../.agents/skills/create-website |
+| design-brief | symlink | ../../.agents/skills/design-brief |
+| design-code-architecture | symlink | ../../.agents/skills/design-code-architecture |
+| design-everyday-things | symlink | ../../.agents/skills/design-everyday-things |
+| design-flow | symlink | ../../.agents/skills/design-flow |
+| design-review | symlink | ../../.agents/skills/design-review |
 | design-system-tokens | symlink | ../../.agents/skills/design-system-tokens |
-| design-tokens | dir | local dir |
-| developer-growth-analysis | dir | local dir |
-| domain-name-brainstormer | dir | local dir |
-| file-organizer | dir | local dir |
-| find-skills | dir | local dir |
+| design-tokens | symlink | ../../.agents/skills/design-tokens |
+| developer-growth-analysis | symlink | ../../.agents/skills/developer-growth-analysis |
+| domain-name-brainstormer | symlink | ../../.agents/skills/domain-name-brainstormer |
+| file-organizer | symlink | ../../.agents/skills/file-organizer |
+| find-skills | symlink | ../../.agents/skills/find-skills |
 | frontend-design | symlink | ../../.agents/skills/frontend-design |
-| graphify | dir | local dir |
-| grill-me | dir | local dir |
-| hooked-ux | dir | local dir |
-| image-enhancer | dir | local dir |
+| graphify | symlink | ../../.agents/skills/graphify |
+| grill-me | symlink | ../../.agents/skills/grill-me |
+| hooked-ux | symlink | ../../.agents/skills/hooked-ux |
+| image-enhancer | symlink | ../../.agents/skills/image-enhancer |
 | impeccable | dir | local dir |
-| improve-retention | dir | local dir |
-| improve-website | dir | local dir |
-| information-architecture | dir | local dir |
-| internal-comms | dir | local dir |
-| invoice-organizer | dir | local dir |
-| ios-hig-design | dir | local dir |
+| improve-retention | symlink | ../../.agents/skills/improve-retention |
+| improve-website | symlink | ../../.agents/skills/improve-website |
+| information-architecture | symlink | ../../.agents/skills/information-architecture |
+| internal-comms | symlink | ../../.agents/skills/internal-comms |
+| invoice-organizer | symlink | ../../.agents/skills/invoice-organizer |
+| ios-hig-design | symlink | ../../.agents/skills/ios-hig-design |
 | landing-page-copywriter | symlink | ../../.agents/skills/landing-page-copywriter |
-| langsmith-fetch | dir | local dir |
-| lead-research-assistant | dir | local dir |
-| lean-ux | dir | local dir |
-| mastering-engineer | dir | local dir |
-| mcp-builder | dir | local dir |
-| meeting-insights-analyzer | dir | local dir |
-| microinteractions | dir | local dir |
-| music-analysis | dir | local dir |
+| langsmith-fetch | symlink | ../../.agents/skills/langsmith-fetch |
+| lead-research-assistant | symlink | ../../.agents/skills/lead-research-assistant |
+| lean-ux | symlink | ../../.agents/skills/lean-ux |
+| mastering-engineer | symlink | ../../.agents/skills/mastering-engineer |
+| mcp-builder | symlink | ../../.agents/skills/mcp-builder |
+| meeting-insights-analyzer | symlink | ../../.agents/skills/meeting-insights-analyzer |
+| microinteractions | symlink | ../../.agents/skills/microinteractions |
+| music-analysis | symlink | ../../.agents/skills/music-analysis |
 | obscura | symlink | ../../.agents/skills/obscura |
 | performance-and-web-vitals | symlink | ../../.agents/skills/performance-and-web-vitals |
-| ponytail | dir | local dir |
-| raffle-winner-picker | dir | local dir |
-| refactoring-ui | dir | local dir |
-| screenshot-desktop | dir | local dir |
+| ponytail | symlink | ../../.agents/skills/ponytail |
+| raffle-winner-picker | symlink | ../../.agents/skills/raffle-winner-picker |
+| refactoring-ui | symlink | ../../.agents/skills/refactoring-ui |
+| screenshot-desktop | symlink | ../../.agents/skills/screenshot-desktop |
 | seo | symlink | ../../.agents/skills/seo |
 | seo-audit | symlink | ../../.agents/skills/seo-audit |
-| skill-creator | dir | local dir |
-| skill-share | dir | local dir |
-| slack-gif-creator | dir | local dir |
-| spec-build-review | dir | local dir |
-| steve-jobs-design-review | dir | local dir |
+| skill-creator | symlink | ../../.agents/skills/skill-creator |
+| skill-share | symlink | ../../.agents/skills/skill-share |
+| slack-gif-creator | symlink | ../../.agents/skills/slack-gif-creator |
+| spec-build-review | symlink | ../../.agents/skills/spec-build-review |
+| steve-jobs-design-review | symlink | ../../.agents/skills/steve-jobs-design-review |
 | superpowers | dir | git@github.com:obra/superpowers.git |
 | synced | dir | local dir |
-| tailored-resume-generator | dir | local dir |
+| tailored-resume-generator | symlink | ../../.agents/skills/tailored-resume-generator |
 | tailwind-design-system | symlink | ../../.agents/skills/tailwind-design-system |
 | taste-skill | dir | git@github.com:Leonxlnx/taste-skill.git |
-| template-skill | dir | local dir |
-| theme-factory | dir | local dir |
-| top-design | dir | local dir |
-| twitter-algorithm-optimizer | dir | local dir |
+| template-skill | symlink | ../../.agents/skills/template-skill |
+| theme-factory | symlink | ../../.agents/skills/theme-factory |
+| top-design | symlink | ../../.agents/skills/top-design |
+| twitter-algorithm-optimizer | symlink | ../../.agents/skills/twitter-algorithm-optimizer |
 | ui-ux-pro-max-skill | dir | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill |
-| ux-heuristics | dir | local dir |
-| video-downloader | dir | local dir |
+| ux-heuristics | symlink | ../../.agents/skills/ux-heuristics |
+| video-downloader | symlink | ../../.agents/skills/video-downloader |
 | web-design-guidelines | symlink | ../../.agents/skills/web-design-guidelines |
-| web-typography | dir | local dir |
-| webapp-testing | dir | local dir |
+| web-typography | symlink | ../../.agents/skills/web-typography |
+| webapp-testing | symlink | ../../.agents/skills/webapp-testing |
 
 ## Плагины — ~/.claude/plugins/installed_plugins.json
 
@@ -289,6 +289,29 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
       "mcp"
     ],
     "env": {}
+  },
+  "logic-pro": {
+    "type": "stdio",
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
+    "args": [
+      "/Users/Rajuna/logic-pro-mcp/dist/index.js"
+    ],
+    "env": {
+      "HOME": "/Users/Rajuna",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    }
+  },
+  "logic-pro-mackie": {
+    "type": "stdio",
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/node",
+    "args": [
+      "/Users/Rajuna/rubenknol-mcp/dist/index.js"
+    ],
+    "env": {
+      "HOME": "/Users/Rajuna",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin",
+      "LOGIC_MCP_PYTHON": "/Users/Rajuna/rubenknol-mcp/.venv/bin/python"
+    }
   }
 }
 ```
@@ -322,6 +345,48 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "args": [
       "mcp"
     ]
+  },
+  "composio": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/npx",
+    "args": [
+      "-y",
+      "mcp-remote",
+      "https://connect.composio.dev/mcp"
+    ],
+    "env": {
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+    }
+  },
+  "playwright": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/npx",
+    "args": [
+      "-y",
+      "@playwright/mcp@latest"
+    ],
+    "env": {
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+    }
+  },
+  "glif": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/npx",
+    "args": [
+      "-y",
+      "@glifxyz/glif-mcp-server@latest"
+    ],
+    "env": {
+      "GLIF_API_TOKEN": "***REDACTED***",
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+    }
+  },
+  "chrome-devtools": {
+    "command": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin/npx",
+    "args": [
+      "-y",
+      "chrome-devtools-mcp@latest"
+    ],
+    "env": {
+      "PATH": "/Users/Rajuna/.nvm/versions/node/v20.20.2/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
+    }
   }
 }
 ```
@@ -332,7 +397,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 48 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 1ed5dab auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | de34197 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

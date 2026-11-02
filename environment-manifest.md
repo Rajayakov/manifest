@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-11-02 10:36:45 +0700
+Дата последнего обновления: 2026-11-02 10:41:09 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -101,11 +101,11 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
     "github@claude-plugins-official": [
       {
         "scope": "user",
-        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/f8c5e7a1dcb7",
-        "version": "f8c5e7a1dcb7",
+        "installPath": "/Users/Rajuna/.claude/plugins/cache/claude-plugins-official/github/a7ba5b93db0c",
+        "version": "a7ba5b93db0c",
         "installedAt": "2026-05-13T08:13:53.134Z",
-        "lastUpdated": "2026-10-30T03:27:57.557Z",
-        "gitCommitSha": "f8c5e7a1dcb71b10cb74586224b5401f3de5db28"
+        "lastUpdated": "2026-11-02T03:39:24.111Z",
+        "gitCommitSha": "a7ba5b93db0c7c8d17f3f1d25853adca79598a1a"
       }
     ],
     "aaron-marketing@aaron": [
@@ -166,9 +166,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1402 | 2026-11-02 |
+| aaron-marketing@aaron | 1406 | 2026-11-02 |
 | superpowers@skills-dir | 294 | 2026-11-02 |
-| gearbox@gearbox | 227 | 2026-11-02 |
+| gearbox@gearbox | 230 | 2026-11-02 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -389,7 +389,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 48 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 81f9c05 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 9223518 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 

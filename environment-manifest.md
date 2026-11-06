@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-11-06 10:50:05 +0700
+Дата последнего обновления: 2026-11-06 10:50:34 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -39,6 +39,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | design-tokens | symlink | ../../.agents/skills/design-tokens |
 | developer-growth-analysis | symlink | ../../.agents/skills/developer-growth-analysis |
 | domain-name-brainstormer | symlink | ../../.agents/skills/domain-name-brainstormer |
+| ex-ussr-kinship-research | symlink | ../../.agents/skills/ex-ussr-kinship-research |
 | file-organizer | symlink | ../../.agents/skills/file-organizer |
 | find-skills | symlink | ../../.agents/skills/find-skills |
 | frontend-design | symlink | ../../.agents/skills/frontend-design |
@@ -389,7 +390,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 48 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 668b4ec auto: sync environment manifest | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 66befbf auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 
@@ -414,4 +415,3 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 ## Решения
 
 - frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.
-тов.

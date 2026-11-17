@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-11-16 13:56:14 +0700
+Дата последнего обновления: 2026-11-17 11:39:25 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -167,9 +167,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1897 | 2026-11-16 |
-| superpowers@skills-dir | 329 | 2026-11-16 |
-| gearbox@gearbox | 286 | 2026-11-16 |
+| aaron-marketing@aaron | 1902 | 2026-11-17 |
+| superpowers@skills-dir | 331 | 2026-11-17 |
+| gearbox@gearbox | 290 | 2026-11-17 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -399,7 +399,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 48 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 714c22d auto: sync environment manifest | clean |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | ad4f5a9 auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 
@@ -424,4 +424,3 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 ## Решения
 
 - frontend-design / imagegen-frontend-web / design-taste-frontend и caveman-скиллы (caveman, caveman-commit, caveman-compress, caveman-help, caveman-review, caveman-stats, cavecrew) — решено оставить в глобальной ~/.claude/skills (через ~/.agents/skills), не удалять. Общие для всех текущих и будущих проектов.
-тов.

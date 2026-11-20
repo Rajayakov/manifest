@@ -2,7 +2,7 @@
 
 _Автосгенерировано хуком `scripts/sync-environment-manifest.sh` (SessionStart). Не редактировать вручную — правки будут перезаписаны следующей сессией._
 
-Дата последнего обновления: 2026-11-20 11:52:53 +0700
+Дата последнего обновления: 2026-11-20 11:53:16 +0700
 
 ## Скиллы — ~/.claude/skills
 
@@ -69,6 +69,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 | ponytail | symlink | ../../.agents/skills/ponytail |
 | raffle-winner-picker | symlink | ../../.agents/skills/raffle-winner-picker |
 | refactoring-ui | symlink | ../../.agents/skills/refactoring-ui |
+| reverse-engineer-anything | symlink | ../../.agents/skills/reverse-engineer-anything |
 | screenshot-desktop | symlink | ../../.agents/skills/screenshot-desktop |
 | seo | symlink | ../../.agents/skills/seo |
 | seo-audit | symlink | ../../.agents/skills/seo-audit |
@@ -167,9 +168,9 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 
 | Плагин | usageCount | lastUsedAt |
 |---|---|---|
-| aaron-marketing@aaron | 1937 | 2026-11-20 |
+| aaron-marketing@aaron | 1938 | 2026-11-20 |
 | superpowers@skills-dir | 337 | 2026-11-20 |
-| gearbox@gearbox | 310 | 2026-11-20 |
+| gearbox@gearbox | 311 | 2026-11-20 |
 | taste-skill@skills-dir | 19 | 2026-07-15 |
 | ui-ux-pro-max@skills-dir | 6 | 2026-07-15 |
 | claude-code-setup@claude-plugins-official | 1 | 2026-07-22 |
@@ -420,7 +421,7 @@ _Автосгенерировано хуком `scripts/sync-environment-manifes
 |---|---|---|---|---|
 | /Users/Rajuna/projects/The-Open-Sky | git@github.com:Rajayakov/The-Open-Sky.git | design-system-sync | 011a37a Sync design-system docs: CLAUDE.md, DESIGN.md, materials | 48 uncommitted |
 | /Users/Rajuna/projects/kambo-landing | https://github.com/Rajayakov/Kambo-Landing.git | main | b0b02e1 Content: replace frog favicon with the requested star icon | clean |
-| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 8fc66e3 auto: sync environment manifest | 1 uncommitted |
+| /Users/Rajuna/projects/Yakov-Rajuna | git@github.com:Rajayakov/Yakov-Rajuna.git | main | 40d845e auto: sync environment manifest | 1 uncommitted |
 
 ## Локальные скиллы внутри проектов
 
